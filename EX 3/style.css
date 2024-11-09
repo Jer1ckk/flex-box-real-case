@@ -1,5 +1,5 @@
 body{
-    background-color: pink;
+    background-color: rgb(247, 247, 247);
 }
 .pricing-container{
     display: flex;
@@ -19,6 +19,7 @@ body{
     background: whitesmoke;
     min-width: 15rem;
     max-width: 20rem;
+    
 
 
 }
@@ -57,6 +58,9 @@ body{
     margin: 1rem;
     height: 2rem;
     color: white;
+}
+li{
+    list-style: none;
 }
 @media (max-width: 900px){
     .pricing-container{
